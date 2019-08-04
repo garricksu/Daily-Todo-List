@@ -4,10 +4,9 @@ let taskItems = document.querySelectorAll(".task");
 
 function addTask() {
   taskInput.addEventListener("keypress", function(event) {
-    if (event.keyCode === 13) {
+    if (event.keyCode === 13 & taskInput.value !== "") {
       let newListItem = createTask(taskInput.value);
-      console.log(taskInput.value);
-      taskList.insertBefore(newListItem, taskItems[0]);
+      taskList.insertBefore(newListItem, taskList.childNodes[0]);
       taskInput.value = "";
     }
   });
