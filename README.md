@@ -7,6 +7,8 @@ Type a new task and hit 'enter' to add it to the list. Click on any task toggle 
 
 * Will clear and reset on page refresh *
 
+Live version: https://distracted-leakey-91c361.netlify.com/
+
 
 
 ![Alt text](TodoList-screenshot.png?raw=true "Project Screenshot")
